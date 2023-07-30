@@ -51,4 +51,10 @@ Below is an example of how to use RedisQueueClient:
 ### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
+### Upcoming Features
+We're actively working on enhancing our project and have exciting features planned for future releases. Here's a sneak peek into what's coming next:
+
+1. **Feature One**: Add redis stream feature to provide a mechanism to ensure that every message is delivered at least once.
+this feature relies on the redis stream feature, which is only available in redis 5.0 or higher.
+   ensuring that messages are processed exactly once (idempotently) is up to the application.
 
